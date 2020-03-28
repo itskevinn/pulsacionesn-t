@@ -12,14 +12,12 @@
     <BuildServerSideRenderer>false</BuildServerSideRenderer>
   </PropertyGroup>
 <ItemGroup>
-
 <ProjectReference Include="..\Entity\Entity.csproj" />
-
 <ProjectReference Include="..\Logica\Logica.csproj" />
-
 </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.2.1" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,8 @@
+c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Entity\bin\Debug\netstandard2.0\Entity.deps.json
+c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Entity\bin\Debug\netstandard2.0\Entity.dll
+c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Entity\bin\Debug\netstandard2.0\Entity.pdb
+c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Entity\obj\Debug\netstandard2.0\Entity.csprojAssemblyReference.cache
+c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Entity\obj\Debug\netstandard2.0\Entity.AssemblyInfoInputs.cache
+c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Entity\obj\Debug\netstandard2.0\Entity.AssemblyInfo.cs
+c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Entity\obj\Debug\netstandard2.0\Entity.dll
+c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Entity\obj\Debug\netstandard2.0\Entity.pdb
