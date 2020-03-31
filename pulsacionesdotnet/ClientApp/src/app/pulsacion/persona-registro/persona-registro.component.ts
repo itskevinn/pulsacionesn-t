@@ -13,13 +13,13 @@ export class PersonaRegistroComponent implements OnInit {
   constructor(private personaService: PersonaService) { }
 
   ngOnInit() {
-    this.persona= new  Persona();
+    this.persona = new Persona();
   }
 
   add() {
     this.personaService.post(this.persona).subscribe(p => {
       if (p != null) {
-        alert('Persona creada!');
+        alert('Persona Creada!');
         this.persona = p;
       }
     });

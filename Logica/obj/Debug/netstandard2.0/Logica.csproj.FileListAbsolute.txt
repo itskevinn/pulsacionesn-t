@@ -1,3 +1,13 @@
 c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\obj\Debug\netstandard2.0\Logica.csprojAssemblyReference.cache
 c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\obj\Debug\netstandard2.0\Logica.AssemblyInfoInputs.cache
 c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\obj\Debug\netstandard2.0\Logica.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\bin\Debug\netstandard2.0\Logica.deps.json
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\bin\Debug\netstandard2.0\Logica.dll
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\bin\Debug\netstandard2.0\Logica.pdb
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\bin\Debug\netstandard2.0\Datos.dll
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\bin\Debug\netstandard2.0\Entity.dll
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\bin\Debug\netstandard2.0\Entity.pdb
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\bin\Debug\netstandard2.0\Datos.pdb
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\obj\Debug\netstandard2.0\Logica.csproj.CopyComplete
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\obj\Debug\netstandard2.0\Logica.dll
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Logica\obj\Debug\netstandard2.0\Logica.pdb

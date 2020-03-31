@@ -1,3 +1,11 @@
 c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Datos\obj\Debug\netstandard2.0\Datos.csprojAssemblyReference.cache
 c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Datos\obj\Debug\netstandard2.0\Datos.AssemblyInfoInputs.cache
 c:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Datos\obj\Debug\netstandard2.0\Datos.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Datos\bin\Debug\netstandard2.0\Datos.deps.json
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Datos\bin\Debug\netstandard2.0\Datos.dll
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Datos\bin\Debug\netstandard2.0\Datos.pdb
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Datos\bin\Debug\netstandard2.0\Entity.dll
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Datos\bin\Debug\netstandard2.0\Entity.pdb
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Datos\obj\Debug\netstandard2.0\Datos.csproj.CopyComplete
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Datos\obj\Debug\netstandard2.0\Datos.dll
+C:\Users\Kevin\Desktop\PulsacionesDotNetAngularProject\Datos\obj\Debug\netstandard2.0\Datos.pdb

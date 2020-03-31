@@ -14,7 +14,7 @@ namespace Datos {
         public void Guardar (Persona persona) {
             using (var comando = _connection.CreateCommand ( )) {
                 comando.CommandText = @"Insert Into Persona (Identificacion, Nombre, Edad, Sexo, Pulsacion) values (@id, @nombre,
-@edad, @sexo, @pulsacion)";
+@sexo, @edad, @pulsacion)";
                 comando.Parameters.AddWithValue ("@id", persona.Identificacion);
                 comando.Parameters.AddWithValue ("@nombre", persona.Nombre);
                 comando.Parameters.AddWithValue ("@sexo", persona.Sexo);
@@ -38,15 +38,26 @@ namespace Datos {
             }
             return personas;
         }
-        public void ConsultarPorIdentificacion (string identificacionABuscar) {
+        public Persona ConsultarPorIdentificacion (string identificacionABuscar) {
             SqlDataReader lector;
-            using(var comando = _connection.CreateCommand()){
-                comando.CommandText = "SELECT * FROM personas WHERE Identificacion = @idPersona"
-                comando.Parameters.AddWithValue("@idPersona", identificacionABuscar);
-                lector.ExecuteReader();
-                lector.Read();
-                return MapearPersonaEnLector(lector);
+            using (var comando = _connection.CreateCommand ( )) {
+                comando.CommandText = "SELECT * FROM personas WHERE Identificacion = @idPersona";
+                comando.Parameters.AddWithValue ("@idPersona", identificacionABuscar);
+                lector = comando.ExecuteReader ( );
+                lector.Read ( );
+                return MapearPersonaEnLector (lector);
             }
+        }
+        private Persona MapearPersonaEnLector (SqlDataReader dataReader)
+
+        {
+            if (!dataReader.HasRows) return null;
+            Persona persona = new Persona ( );
+            persona.Identificacion = (string) dataReader["Identificacion"];
+            persona.Nombre = (string) dataReader["Nombre"];
+            persona.Sexo = (string) dataReader["Sexo"];
+            persona.Edad = (int) dataReader["Edad"];
+            return persona;
         }
     }
 }

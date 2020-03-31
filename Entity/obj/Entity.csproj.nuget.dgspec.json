@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Kevin\\Desktop\\PulsacionesDotNetAngularProject\\Entity\\Entity.csproj": {}
+    "C:\\Users\\Kevin\\Desktop\\PulsacionesDotNetAngularProject\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Kevin\\Desktop\\PulsacionesDotNetAngularProject\\Entity\\Entity.csproj": {
+    "C:\\Users\\Kevin\\Desktop\\PulsacionesDotNetAngularProject\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Kevin\\Desktop\\PulsacionesDotNetAngularProject\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Kevin\\Desktop\\PulsacionesDotNetAngularProject\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "c:\\Users\\Kevin\\Desktop\\PulsacionesDotNetAngularProject\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\Kevin\\Desktop\\PulsacionesDotNetAngularProject\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Kevin\\Desktop\\PulsacionesDotNetAngularProject\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\Kevin\\Desktop\\PulsacionesDotNetAngularProject\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
