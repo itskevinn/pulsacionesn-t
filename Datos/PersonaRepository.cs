@@ -14,7 +14,7 @@ namespace Datos {
         public void Guardar (Persona persona) {
             using (var comando = _connection.CreateCommand ( )) {
                 comando.CommandText = @"Insert Into Persona (Identificacion, Nombre, Edad, Sexo, Pulsacion) values (@id, @nombre,
-@sexo, @edad, @pulsacion)";
+@edad, @sexo, @pulsacion)";
                 comando.Parameters.AddWithValue ("@id", persona.Identificacion);
                 comando.Parameters.AddWithValue ("@nombre", persona.Nombre);
                 comando.Parameters.AddWithValue ("@sexo", persona.Sexo);
