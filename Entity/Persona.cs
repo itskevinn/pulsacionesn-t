@@ -10,9 +10,10 @@ namespace Entity {
          if (Sexo.Equals ("F") || Sexo.Equals ("f")) {
             Pulsacion = (220 - Edad) / 10;
          }
-         else {
+         else if (Sexo.Equals ("M") || Sexo.Equals ("m")) {
             Pulsacion = (210 - Edad) / 10;
          }
+         else Pulsacion = 0;
       }
    }
 }

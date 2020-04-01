@@ -27,7 +27,7 @@ namespace Datos {
             SqlDataReader lector;
             List<Persona> personas = new List<Persona> ( );
             using (var comando = _connection.CreateCommand ( )) {
-                comando.CommandText = "Select * from personas";
+                comando.CommandText = "Select * from Persona";
                 lector = comando.ExecuteReader ( );
                 if (lector.HasRows) {
                     while (lector.Read ( )) {
@@ -41,7 +41,7 @@ namespace Datos {
         public Persona ConsultarPorIdentificacion (string identificacionABuscar) {
             SqlDataReader lector;
             using (var comando = _connection.CreateCommand ( )) {
-                comando.CommandText = "SELECT * FROM personas WHERE Identificacion = @idPersona";
+                comando.CommandText = "SELECT * FROM persona WHERE Identificacion = @idPersona";
                 comando.Parameters.AddWithValue ("@idPersona", identificacionABuscar);
                 lector = comando.ExecuteReader ( );
                 lector.Read ( );
@@ -56,7 +56,8 @@ namespace Datos {
             persona.Identificacion = (string) dataReader["Identificacion"];
             persona.Nombre = (string) dataReader["Nombre"];
             persona.Sexo = (string) dataReader["Sexo"];
-            persona.Edad = (int) dataReader["Edad"];
+            persona.Edad = (decimal) dataReader["Edad"];
+            persona.Pulsacion = (decimal) dataReader["Pulsacion"];
             return persona;
         }
     }

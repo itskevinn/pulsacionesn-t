@@ -22,12 +22,12 @@ namespace pulsacionesdotnet.Controllers {
         public PersonaController (IConfiguration configuration) {
             Configuration = configuration;
             string connectionString = Configuration["ConnectionStrings:DefaultConnection"];
-            _personaService = new PersonaService (connectionString); 
+            _personaService = new PersonaService (connectionString);
         }
 
         // GET: api/Persona
         [HttpGet]
-        public IEnumerable<PersonaViewModel> Gets ( ) {
+        public IEnumerable<PersonaViewModel> Get ( ) {
             var personas = _personaService.ConsultarTodos ( ).Personas.Select (p => new PersonaViewModel (p));
             return personas;
         }
